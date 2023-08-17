@@ -1,10 +1,12 @@
-# Docker Compose LEMP Stack
+# Original repo – Docker Compose LEMP Stack
 
 This repository contains a little `docker-compose` configuration to start a `LEMP (Linux, Nginx, MariaDB, PHP)` stack.
 
+Link to original repo –> 'https://github.com/stevenliebregt/docker-compose-lemp-stack'
+
 ## Details
 
-The following versions are used.
+This fork was adapted to host Wordpress files through LEMP stack. The following versions were used initially:
 
 * PHP 7.2 (FPM) - With MySQLi driver optionally (Uncomment line from php.Dockerfile)
 * Nginx 1.13.6
@@ -27,7 +29,11 @@ To use it, simply follow the following steps:
 
 ##### Clone this repository.
 
-Clone this repository with the following command: `git clone https://github.com/stevenliebregt/docker-compose-lemp-stack.git`.
+##### Download Wordpress archive and extract it to app/ directory
+
+https://wordpress.org/latest.zip
+
+##### Configure index.php, if needed
 
 ##### Start the server.
 
